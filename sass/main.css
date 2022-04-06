@@ -164,8 +164,8 @@ header {
 }
 
 .header-right a {
-  font-size: 1.35vw;
-  color: var(--black);
+  font-size: 1.75vw;
+  color: #ffffff;
   -webkit-text-stroke: 0.15px #fff;
 }
 
@@ -331,6 +331,45 @@ header {
   z-index: 70;
 }
 
+.sb-text {
+  width: 45%;
+  height: max-content;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: 45.5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 70;
+  font-size: 30px;
+  text-align: center;
+}
+
+.coffee_punks{
+  height: max-content;
+  left: 50%;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.sb-mint {
+  width: 10%;
+  height: max-content;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: 60.5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 70;
+  font-size: 30px;
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+}
+.sb-mint:hover {
+color: blue;
+}
 /* Layer-2 */
 .layer-2 {
   width: 100%;
@@ -962,7 +1001,7 @@ header {
 }
 
 .team-box > img {
-  width: 7.5vw;
+  width: 16.5vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
