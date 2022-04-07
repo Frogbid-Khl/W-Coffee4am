@@ -154,10 +154,10 @@ heroOnScrollAnim
   .fromTo(
     ".sb-logo",
     {
-      top: "22.5%",
+      top: "9.5%",
     },
     {
-      top: "7.5%",
+      top: "0.5%",
       duration: 0.5,
     },
     0
