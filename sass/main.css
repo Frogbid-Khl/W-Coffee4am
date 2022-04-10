@@ -366,6 +366,14 @@ header {
   text-align: center;
   color: #ffffff;
 }
+
+.traits{
+  height: max-content;
+  left: 50%;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
 .sb-mint {
   width: 10%;
   height: max-content;
